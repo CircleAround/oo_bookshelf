@@ -79,7 +79,7 @@ class LimitedBookshelf extends Bookshelf {
   }
 
   // 明示的にメソッドを書かれていませんがBookshelfのメソッドを呼び出すことができます。
-  // 10行程度でほぼ同じ機能を持ちながら、少し動きの違う仕組みを導入で
+  // 10行程度でほぼ同じ機能を持ちながら、少し動きの違う仕組みを導入できました。
 }
 
 // 本棚として本を格納するクラス（タイトルでの検索が速い）
@@ -101,8 +101,8 @@ class IndexedBookshelf {
 
   sumPageSize() {
     let size = 0
-    for(let property in this.books) {
-      size += this.books[property].pageSize
+    for(let title in this.books) {
+      size += this.books[title].pageSize
     }
     return size
   }
