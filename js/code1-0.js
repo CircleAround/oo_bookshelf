@@ -1,5 +1,5 @@
 // 関数・メソッド
-function sum_numbers(numbers) { // numbersは引数。関数の外から値を渡せる
+function sumNumbers(numbers) { // numbersは引数。関数の外から値を渡せる
   let size = 0 // 変数として sizeを定義して0で初期化
   // numbersの中身を順番に取り出してsizeに加算
   for (let i = 0; i < numbers.length; i++) {
@@ -16,9 +16,9 @@ numbers.push(454)
 numbers.push(876)
 
 // 関数を呼び出して結果（戻り値の内容）をputsで表示
-console.log(sum_numbers(numbers))
+console.log(sumNumbers(numbers))
 
 // 新たな値を追加します
 numbers.push(11)
 // 関数は何度も同じ処理を再利用できるように名前と処理を関連づけたものです
-console.log(sum_numbers(numbers))
+console.log(sumNumbers(numbers))
