@@ -119,7 +119,7 @@ function sample(bookshelf) {
   bookshelf.addBook(new Book("こころ", 876))
 
   if (!bookshelf.addBook(new Book("門", 345))) {
-    console.log(`新しい本を追加できませんでした。今の本の数: ${bookshelf.size}`)
+    console.log(`新しい本を追加できませんでした。今の本の数: ${bookshelf.size()}`)
   }
 
   console.log(bookshelf.findBookByTitle("こころ"))

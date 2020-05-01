@@ -1,16 +1,16 @@
+function findBookByTitle(books, title) {
+  for(let i = 0; i < books.length; i++) {
+    if (books[i].title === title) return books[i]
+  }
+  return null
+}
+
 function sumPageSize(books) {
   let size = 0
   for(let i = 0; i < books.length; i++) {
     size += books[i].pageSize
   }
   return size
-}
-
-function findBookByTitle(books, title) {
-  for(let i = 0; i < books.length; i++) {
-    if (books[i].title === title) return books[i]
-  }
-  return null
 }
 
 function createBook(title, pageSize) {
