@@ -18,12 +18,12 @@ class Book
     @title = value
   end
 
-  # page_sizeのゲッター
+  # pageSizeのゲッター
   def page_size
     @page_size
   end
 
-  # page_sizeのセッター
+  # pageSizeのセッター
   def page_size=(value)
     @page_size = value
   end
