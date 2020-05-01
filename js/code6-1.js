@@ -18,12 +18,12 @@ class Book {
     this.title = value
   }
 
-  // page_sizeのゲッター
+  // pageSizeのゲッター
   getPageSize() {
     return this.pageSize
   }
 
-  // page_sizeのセッター
+  // pageSizeのセッター
   setPageSize(value) {
     this.pageSize = value
   }
