@@ -103,7 +103,7 @@ let books = [
   { title: "こころ", pageSize: 876 }
 ]
 
-// value_ofはBookshelfで定義していますが、派生クラスのLimitedBookshelfでも使えます
+// valueOfはBookshelfで定義していますが、派生クラスのLimitedBookshelfでも使えます
 let bookshelf = LimitedBookshelf.valueOf(books)
 
 if(!bookshelf.addBook(new Book("門", 345))) {
