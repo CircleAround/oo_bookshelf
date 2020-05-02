@@ -36,7 +36,7 @@ class Bookshelf {
   }
 
   addBook(book) {
-    // 自分自身（this）のcan_add_book?メソッドを呼び出す
+    // 自分自身（this）のcanAddBookメソッドを呼び出す
     if (!this.canAddBook(book)) return false
 
     this.books.push(book)
