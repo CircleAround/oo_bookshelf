@@ -1,6 +1,6 @@
 // グローバル変数
 console.log('グローバル変数のサンプル')
-let globalValue = 1
+globalValue = 1
 
 function changeGlobalValue() {
   globalValue += 1
@@ -16,5 +16,5 @@ class Test3 {
 
 changeGlobalValue() // globalValueの数: 2
 changeGlobalValue() // globalValueの数: 3
-test3 = new Test3
+let test3 = new Test3
 test3.changeGlobalValue() // globalValueの数: 13
