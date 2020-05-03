@@ -1,4 +1,4 @@
-// 関数・メソッド
+// 関数
 function sumNumbers(numbers) { // numbersは引数。関数の外から値を渡せる
   let size = 0 // 変数として sizeを定義して0で初期化
   // numbersの中身を順番に取り出してsizeに加算
