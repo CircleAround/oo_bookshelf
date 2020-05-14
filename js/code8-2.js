@@ -67,8 +67,10 @@ csvData.push(['タイトル', 'ページ数', '拡張情報']);
 for(let i = 0; i < books.length; i++) {
   let book = books[i];
 
-  let record = [book.getTitle(), book.getPageSize(), book.getExtensionString()];
+  let record = [book.getTitle(), book.getPageSize()];
   // ここにあったif文はもう不要に！
+  record.push(book.getExtensionString());
+  
   csvData.push(record);
 }
 
