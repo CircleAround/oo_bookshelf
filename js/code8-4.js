@@ -112,7 +112,7 @@ class IndexedBookshelf {
   }
 }
 
-// サンプルの操作です。
+// サンプルの操作です。この中のコードは決まっているものとします。
 function sample(bookshelf) {
   bookshelf.addBook(new Book("坊ちゃん", 520));
   bookshelf.addBook(new Book("我輩は猫である", 454));

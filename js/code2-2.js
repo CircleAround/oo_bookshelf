@@ -39,7 +39,7 @@ function findBookByTitle(books, title) {
 function sumPageSize(books) {
   let size = 0;
   for(let i = 0; i < books.length; i++) {
-    size += books[i].pageSize;
+    size += books[i].getPageSize();
   }
   return size;
 }
