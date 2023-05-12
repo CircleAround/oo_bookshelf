@@ -62,7 +62,7 @@ class Bookshelf {
     return this.books.length;
   }
 
-  // 今この本を追加できますか？」というチェックを行えるメソッド
+  // 「今この本を追加できますか？」というチェックを行えるメソッド
   canAddBook(book) {
     return true; // デフォルトでは何も制限を行わないのでどんな時も本を追加できる
   }
